@@ -1,0 +1,66 @@
+
+.container{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+	width:100vw;
+}
+#container{
+	width:210px;
+	margin:20px;
+	padding:8px 8px 8px 8px;
+	background-color:#747474;
+	border-radius:4px;
+}
+#display{
+	display:block;
+	margin:10px;
+	height:50px;
+	width:200px;
+	background-color:white;
+	border-radius:5px;
+	text-align:right;
+	font-size:25px;
+	
+}
+.Button{
+	margin-left:5px;
+	
+}
+.digits{
+	display:inline-block;
+	
+	
+	height:45px;
+	width:45px;
+	background-color:#dfdfdf;
+	color:black;
+	font-size:20px;
+	border-radius:1px;
+	
+}
+.mathButton{
+	color:white;
+	background-color:#267ed5;
+	height:45px;
+	width:45px;
+	margin-left:5px;
+	margin-bottom:10px;
+	
+	
+}
+.buttonClear{
+	background-color:red;
+	color:white;
+	height:45px;
+	width:45px;
+	margin-left:5px;
+	border-radius:7px;
+}
+.digits:hover,
+.mathButton:hover,
+.buttonClear:hover{
+	background-color:#BE9918;
+	color:yellow;
+}
